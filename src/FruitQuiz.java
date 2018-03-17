@@ -37,9 +37,17 @@ System.out.println(keyCode);
 			correct();
 		}
 		//If Question 3 is showing
+	if(question4.isShowing()) {
 	if(keyCode==a) {
 			correct();
 		}
+	else {
+			incorrect();
+		}
+	}
+	
+	 
+		
 		// 12. If question2 is showing,
 			
 			// 13. check if it is right or wrong like you did for question1
