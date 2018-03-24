@@ -41,18 +41,31 @@ System.out.println(keyCode);
 	if(keyCode==a) {
 			correct();
 		}
+	
 	else {
 			incorrect();
 		}
 	}
 	
-	 
+	 if(question3.isShowing()){
+		 if(keyCode==a) {
+			 correct();
+		 }
+		 else{
+			 incorrect();
+		 }nextQuestion(question4);
+	 }
 		
 		// 12. If question2 is showing,
 			
 			// 13. check if it is right or wrong like you did for question1
+		if(question2.isShowing()) {
 		if(keyCode==a) {
 			correct();
+		}
+		else{
+			incorrect();
+		}nextQuestion(question3);
 		}
 			
 		if (question1.isShowing()) {
