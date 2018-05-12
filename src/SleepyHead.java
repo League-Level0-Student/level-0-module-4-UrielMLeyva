@@ -9,14 +9,15 @@ public class SleepyHead {
 
     public static void main(String[] args) {
         
-        boolean isWeekday, isVacation;
+        boolean isWeekday = false,isVacation, isWeekend = false;
         
         /*
          * Ask the user for these values using
          * JOptionPane.showConfirmDialog(null, "is it a weekday?", "",
          * JOptionPane.YES_NO_OPTION);
          */
-    
+        JOptionPane.showConfirmDialog(null, "Is it a weekday?","Is it a weekend?",
+                 JOptionPane.YES_NO_OPTION);
 
 
         /*
@@ -24,5 +25,18 @@ public class SleepyHead {
          * print “get up lazybones!” If it is a weekday, and we are on vacation,
          * print “sleep in”.
          */
+        if(isWeekend) {
+        	System.out.println("Sleep in.");
+        }
+        if(isWeekday) {
+        	System.out.println("Get up lazybones!");
+        }
+        if(isWeekday)(isVacation) {
+        	System.out.println("Sleep in.");
+        }
+        
+        
+        
+        
     }
 }

@@ -34,7 +34,7 @@ public class ChangeCalculator {
 		
 		
 		// Tell the user how much money they have
-		 JOptionPane.showMessageDialog(null, "You have "+money+" in your pocket");
+		 JOptionPane.showMessageDialog(null, "You have "+money+" dollars in your pocket");
 	}
 }
 
