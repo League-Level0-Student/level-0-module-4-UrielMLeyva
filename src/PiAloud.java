@@ -16,7 +16,7 @@ public class PiAloud {
 String p = 3.1415926535;
 
     // 3. Print out some digits of Pi. The first value is "pi.charAt(0)", the second is "pi.charAt(1)"
-
+p.
 	// 4. Print ALL the digits of of Pi (hint: use a loop)
 
 	// 5. Use the speak() method to speak all the digits of Pi.
